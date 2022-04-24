@@ -1,0 +1,19 @@
+.user__btn {
+    background-color: rgb(12, 255, 28);
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    border: none;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  height: 530px;
+  min-height: 500px;
+  background: #4747479d;
+  margin: auto;
+  border-radius: 10px;
+}

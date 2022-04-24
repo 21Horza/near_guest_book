@@ -20,7 +20,7 @@ async function initContract() {
     contractId: contractName,
     wallets: [
       setupNearWallet({iconUrl: nearWalletIconUrl}),
-      setupSender({iconUrl: senderIconUrl})
+      // setupSender({iconUrl: senderIconUrl}) NOT WORKING
     ],
   });
 
